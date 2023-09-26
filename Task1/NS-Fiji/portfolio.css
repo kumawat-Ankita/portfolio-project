@@ -1,0 +1,118 @@
+body{
+     margin: 0;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container1{
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: center;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.text{
+  
+    font-weight: 400;
+    text-align: center;
+}
+span{
+    font-size: 96px;
+}
+.sub-text{
+    margin: 0;
+    font-size: 30px;
+}
+.top-text{
+    display: flex;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 37rem;
+    top: 1rem;
+    padding: 0 1rem;
+    flex-direction: column;
+    align-content: center;
+}
+.container2{
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-size: 80px;
+    font-weight: 400;
+}
+.container3{
+    display:flex;
+    text-align:start;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+.card{
+    height: 400px;
+    width: 340px;
+    border: 2px solid rgb(224, 217, 217);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(224, 217, 217);
+}
+
+.card-text1{
+    display: flex;
+    padding-left: 15px;
+    align-items: flex-end;
+    margin-bottom:50px ;
+}
+h3{
+    padding-left: 15px;
+}
+.card-img{
+    border-top-right-radius: 7px;
+    border-top-left-radius:7px ;
+    width: 340px;
+}
+.container4{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    margin: 20px;
+}
+.last-card{
+    font-size: 20px;
+    background-color: #3e600e;
+    color: white;
+    width: 500px;
+    height: 150px;
+}
+.last-card-heading{
+    padding-left: 15px;
+    font-size: 40px;
+    margin: 0;
+    font-weight:normal;
+    padding-top: 10px;
+}
+.last-card-text{
+    padding-left: 15px;
+    font-size: small;
+    padding-right: 10px;
+}
+#last-card-color{
+    background-color:rgb(138, 41, 22);
+}
+
+@media only screen and (max-width:786px) {
+.container3{
+  flex-direction: column;
+  align-items: center;
+}
+.container1{
+    height: 50vh;
+}
+.container2{
+    font-size: 24px;
+}
+.container4{
+    flex-direction: column;
+}
+
+  }
+   

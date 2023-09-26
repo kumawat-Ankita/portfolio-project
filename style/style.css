@@ -1,0 +1,48 @@
+h1 {
+    font-size: 50px;
+    background-color: rgb(32, 168, 168);
+    text-align: center;
+    color:white;
+    padding: 50px;
+    margin:0%;
+}
+h2 {
+    text-align: center;
+}
+nav{
+    background-color: grey;
+    overflow: hidden;
+
+}
+nav a{
+    display: block;
+    color: beige;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+    font-size: 20px;
+}
+section{
+    text-align: center;
+    padding-top: 48px;
+}
+section:nth-child(even) {
+background-color: blanchedalmond;
+}
+iframe {
+    padding:0px 5px;
+}
+img{
+    padding:0px 20px;
+}
+h2{
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+section h4{
+    font-size: 30px;
+}
+section h5{
+    margin:0px 130px;
+    font-size: 20px;
+}

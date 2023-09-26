@@ -1,0 +1,17 @@
+.flex-container{
+    
+    border: 2px;
+    height: 45vh;
+    flex-direction: row-reverse;
+    display: flex;
+}
+.flex-item{
+    background-color: rgb(94, 255, 0);
+    border: 2px solid rgb(184, 69, 69);
+    margin:15px;
+    width: 200px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
